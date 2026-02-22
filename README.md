@@ -1,4 +1,5 @@
 # learn-research-tools-starter
+> **GitHub Description:** Standardized boilerplate and scaffolding for building AI Observability research tools with pre-configured CI/CD and OTel integration.
 
 Standardized template and scaffolding for AI Observability research and tools.
 
