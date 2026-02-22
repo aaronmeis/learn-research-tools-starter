@@ -1,0 +1,13 @@
+services:
+  db:
+    image: postgres:15-alphine
+  redis:
+    image: redis:7-alphine
+  api:
+    build: ./backend
+    depends_on: [ db, redis ]
+  worker:
+    build: ./backend
+    depends_on: [ db, redis ]
+  frontend:
+    build: ./frontend
